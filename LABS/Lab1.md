@@ -111,42 +111,6 @@ is_raining = False  # Another Boolean value
 bool_num = bool(1)  # Convert integer to boolean
 ```
 
-## 6. Binary Types
 
-### Bytes (bytes)
-```python
-byte_data = b"hello"  # Bytes
-byte_seq = bytes([65, 66, 67])  # Bytes from ASCII values
 
-# Type Casting
-byte_list = list(byte_data)  # Convert bytes to list
-```
 
-### Bytearray (bytearray)
-```python
-mutable_bytes = bytearray([65, 66, 67])  # Mutable Bytes
-byte_arr = bytearray(b"Python")  # Another Bytearray
-
-# Type Casting
-byte_str = mutable_bytes.decode()  # Convert bytearray to string
-```
-
-### Memoryview (memoryview)
-```python
-memory = memoryview(bytes(5))  # Memory view
-mem_from_bytes = memoryview(b"data")  # Another Memory view
-
-# Type Casting
-mem_list = list(memory)  # Convert memoryview to list
-```
-
-## 7. None Type
-
-### NoneType (None)
-```python
-empty_value = None  # Represents no value
-not_defined = None  # Another NoneType
-
-# Type Casting
-none_str = str(empty_value)  # Convert None to string
-```
