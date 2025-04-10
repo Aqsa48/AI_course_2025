@@ -109,8 +109,14 @@ is_raining = False  # Another Boolean value
 
 # Type Casting
 bool_num = bool(1)  # Convert integer to boolean
+
+
 ```
 
+#### Lab Task
+1. Make 2-2 programs of each datatype.
+2. Make up to 5 Shape programs using *.
+3. Make same shapes you have made in task 2, using * mutiple by number.
 
 
 
